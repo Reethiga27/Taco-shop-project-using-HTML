@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US -- LTS</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="contact.webp" alt="eat in time" width="400" height="260">
+            <figcaption>Little Taco Shop Tacos</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get"></form>
+               <fieldset>
+                  <legend>Send Us a Message</legend>
+                  <p>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                  </p>
+                  <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                  </p>
+                  <p>
+                    <label for="message">Your Message</label>
+                    <br>
+                    <textarea name="message" id="message" placeholder="enter your message"></textarea>
+                  </p>
+               </fieldset>
+               <button type="submit">Send</button>
+               <button type="reset">Reset</button>
+            </form>   
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, Suite <br>
+                kansas city, Mo 55555-5555
+                <br><br>
+                phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Little Taco Shop</p>
+    </footer>
+    
+</body>
+</html>
